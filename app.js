@@ -221,9 +221,10 @@ class Validate{
             return `${hand.playerName}, ${hand.handValue()}`
                 }
          )
-
+        
+        //validate hands like in real poker
          people.forEach(person => {
-            
+
          })
 
         return handsByValue;
